@@ -1,0 +1,13 @@
+/**
+ * Exception for null user input.
+ * This code is available for public use. Please give credit where it is due.
+ *
+ * @Yahvin Gali
+ * @4/11/2021
+ */
+ 
+public class NullInputException extends InvalidInputException {
+    public NullInputException() {
+        super("Null input received.");
+    }
+}
